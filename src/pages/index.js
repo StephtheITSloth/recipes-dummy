@@ -11,7 +11,7 @@ export default function Home() {
         <div className='hero-container'>
           <div className='hero-text'>
             <h1>Recipes Dummy</h1>
-            <h4>Rcipes for dummies!</h4>
+            <h4>Recipes for dummies!</h4>
           </div>
         </div>
       </header>

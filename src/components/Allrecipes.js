@@ -24,10 +24,12 @@ query {
 
 const Allrecipes = () => {
     const data = useStaticQuery(getData).allContentfulRecipesApp.nodes
-    console.log(data)
   return (
-    <section className='recipes-container'rec>
+    <section className='recipes-container'>
         <h4>All Recipes</h4>
+        <div className='row'>
+          
+        </div>
         <TagsList tags={data}/>
         <RecipesList recipes={data}/>
     </section>

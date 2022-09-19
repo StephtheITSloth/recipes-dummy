@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import {Link, graphql} from 'gatsby'
+import {graphql} from 'gatsby'
 import Recipes from '../components/Recipes'
 const contact = ({data}) => {
 
@@ -16,7 +16,10 @@ const contact = ({data}) => {
             <p> Hammock big mood brunch pabst, la croix crucifix 90's gastropub pickled raw denim next level try-hard.</p>
             <p> Narwhal four dollar toast poutine disrupt listicle. Tattooed DSA fashion axe squid schlitz fingerstache ramps vegan crucifix. </p>
           </article>
-          <form clasName='form contact-form'>
+          <form clasName='form contact-form'
+          action="https://formspree.io/f/xbjbgqpy"
+          method="POST"
+          >
             <div className='form-row'>
               <label htmlFor='name'>your name</label>
               <input id='name' type='text' placeholder='name' onChange={(e) => e.target.value}/>

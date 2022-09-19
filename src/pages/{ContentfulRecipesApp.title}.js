@@ -1,10 +1,11 @@
 import React from 'react'
 import {graphql} from 'gatsby'
-const RecipeTemplate = (props) => {
-    console.log(props.data)
+import {GatbyImage, getImage} from 'gatsby-plugin-image'
+import Layout from '../components/Layout'
+const RecipeTemplate = () => {
   return (
     <div>
-        <h2>{props.params.title}</h2>
+        <h2></h2>
     </div>
   )
 }

@@ -2,10 +2,10 @@ import React from 'react'
 import {graphql} from 'gatsby'
 import {GatbyImage, getImage} from 'gatsby-plugin-image'
 import Layout from '../components/Layout'
-const RecipeTemplate = () => {
+const RecipeTemplate = (props) => {
   return (
     <div>
-        <h2></h2>
+        <h2>{props.params.title}</h2>
     </div>
   )
 }

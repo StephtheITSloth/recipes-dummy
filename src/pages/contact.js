@@ -17,20 +17,20 @@ const contact = ({data}) => {
             <p> Narwhal four dollar toast poutine disrupt listicle. Tattooed DSA fashion axe squid schlitz fingerstache ramps vegan crucifix. </p>
           </article>
           <form clasName='form contact-form'
-          action="https://formspree.io/f/xbjbgqpy"
+          action="https://formspree.io/f/mlevjaaz"
           method="POST"
           >
             <div className='form-row'>
               <label htmlFor='name'>your name</label>
-              <input id='name' type='text' placeholder='name' onChange={(e) => e.target.value}/>
+              <input id='name' type='text' placeholder='name' onChange={(e) => e.target.value} name='name'/>
             </div>
             <div className='form-row'>
               <label htmlFor='email'>your email</label>
-              <input id='email' type='email' placeholder='email' onChange={(e) => e.target.value}/>
+              <input id='email' type='email' placeholder='email' onChange={(e) => e.target.value} name='email'/>
             </div>
             <div className='form-row'>
               <label htmlFor='message'>message</label>
-              <textarea id='message' onChange={(e) => e.target.value}></textarea>
+              <textarea id='message' onChange={(e) => e.target.value} name='message'></textarea>
             </div>
             <button type='submit' className='btn block'>submit</button>
           </form>
